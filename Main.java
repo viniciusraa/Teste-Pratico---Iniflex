@@ -1,12 +1,11 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 // 1
 class Pessoa {
@@ -58,16 +57,6 @@ class Funcionario  extends Pessoa{
     public void setFunc(String func) {
         this.func = func;
     }
-
-    // public class NomeComparator implements Comparator<Funcionario> {
-    //     @Override
-    //     public int compare(Funcionario funcio1, Funcionario funcio2) {
-    //         String nomeFuncio1 = funcio1.getNome();
-    //         String nomeFuncio2 = funcio2.getNome();
-    //         return nomeFuncio1.compareTo(nomeFuncio2);
-    //     }
-    // }
-
 }
 // 3
 public class Main {
